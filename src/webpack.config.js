@@ -1,0 +1,1 @@
+https://github.com/webpack/changelog-v5/blob/master/guides/module-federation.md
