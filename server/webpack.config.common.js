@@ -1,4 +1,5 @@
 module.exports = {
+    mode: 'production',
     entry: [
         'react',
         'react-dom',
@@ -7,10 +8,5 @@ module.exports = {
     ],
     output:{
         filename: 'vendor.js'
-    },
-    optimizations: {
-        splitChunks: {
-            maxChunks: 1
-        }
     }
 }
